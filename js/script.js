@@ -52,12 +52,12 @@ function inicia() {
 
   //Ini jogador
   dirxJ = diryJ = 0;
-  pjx=tamTelaW/2;
-  pjy=tamTelaH/2;
-  velJ=5;
-  jog=document.getElementById("naveJog");
-  jog.style.top = pjy+"px";
-  jog.style.left = pjx+"px";
+  pjx = tamTelaW / 2;
+  pjy = tamTelaH / 2;
+  velJ = 5;
+  jog = document.getElementById("naveJog");
+  jog.style.top = pjy + "px";
+  jog.style.left = pjx + "px";
 }
 
 window.addEventListener("load", inicia);
