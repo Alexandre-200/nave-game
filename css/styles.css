@@ -34,4 +34,25 @@ body {
   display: none;
 }
 
+#medidorPlaneta {
+  border: 2px solid #000;
+  width: 300px;
+  height: 20px;
+  background-color: #fff;
+}
+
+#barraPlaneta {
+  width: 296px;
+  height: 16px;
+  background-color: #55f;
+}
+
+.tiroJog {
+  width: 6px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 3px;
+  position: absolute;
+}
+
 /*# sourceMappingURL=styles.css.map */
