@@ -48,11 +48,40 @@ body {
 }
 
 .tiroJog {
-  width: 6px;
+  width: 3px;
   height: 10px;
   background-color: #000;
   border-radius: 3px;
   position: absolute;
+}
+
+.bomba {
+  width: 24px;
+  height: 40px;
+  background-image: url("../../img/bomba.gif");
+  position: absolute;
+}
+
+.explosaoChao {
+  width: 55px;
+  height: 57px;
+  position: absolute;
+}
+
+.explosaoAr {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+
+.telaMsg {
+  position: absolute;
+  margin-left: -25%;
+  top: 50%;
+  left: 50%;
+  width: 720px;
+  height: 621px;
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
